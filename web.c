@@ -24,7 +24,7 @@ scanf("%d",&choice);
   
   if(choice == 1)
   {
-  printf("\nEnter the file name");
+  printf("\nEnter the file name:");
           scanf("%s",fname);
           fprintf(f,"<link rel=\"stylesheet\" type=\"text/css\" href=\"%s.css\"></head>",fname);
 }
@@ -39,7 +39,7 @@ fprintf(f,"<link rel=\"stylesheet\" type=\"text/css\" href=\"index1.css\"></head
   
   fprintf(f,"<h1>%s</h1>",name);
   
-  printf("\nEnter the logo image with extension");         // logo of the site
+  printf("\nEnter the logo image with extension:");         // logo of the site
   scanf("%s",logo);
   
   fprintf(f,"<div id=logo><img src=\"%s\">",logo);         //div id=logo 
